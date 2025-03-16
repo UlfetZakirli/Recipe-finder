@@ -1,36 +1,30 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Recipe Finder
+
+## Overview
+
+Recipe Finder is a web application that allows users to search, discover, and explore delicious recipes from around the world. The app integrates with the Spoonacular API to fetch recipe data based on search queries, cuisine types, and preparation time. Users can view detailed recipes, including ingredients, instructions, and images.
+
+### Features:
+- **Search Recipes**: Users can search for recipes by ingredient, cuisine, or preparation time.
+- **View Recipe Details**: Users can click on a recipe to view detailed information, including ingredients, instructions, and an image of the dish.
+- **Responsive Design**: The application is fully responsive and works on mobile, tablet, and desktop devices.
+
+---
 
 ## Getting Started
 
-First, run the development server:
+These instructions will help you set up the project on your local machine for development and testing purposes.
+
+### Prerequisites
+
+Make sure you have the following installed:
+- **Node.js** (v14 or above) - [Download Node.js](https://nodejs.org/)
+- **npm** (Node package manager) - Usually comes with Node.js
+
+### 1. Clone the repository
+
+First, clone the repository to your local machine:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+git clone https://github.com/yourusername/recipe-finder.git
+cd recipe-finder
